@@ -1,0 +1,1 @@
+{"NUM": ["BHK", "Size_in_SqFt", "Price_in_Lakhs", "Price_per_SqFt", "Age_of_Property", "Nearby_Schools", "Nearby_Hospitals", "Floor_No", "Total_Floors", "Amenity_Density_Score", "Transport_Score", "Infrastructure_Score", "Floor_Ratio", "Rooms_per_1000SqFt", "Is_Ready", "Has_Parking", "Has_Security"], "CAT": ["City", "Property_Type", "Furnished_Status", "Facing", "Owner_Type"]}

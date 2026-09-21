@@ -1,0 +1,8 @@
+# large / regenerable files
+india_housing_prices.csv
+cleaned_housing.csv
+mlruns/
+mlflow.db
+__pycache__/
+.DS_Store
+*.pdf

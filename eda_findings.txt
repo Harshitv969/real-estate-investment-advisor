@@ -1,0 +1,84 @@
+Q1 Distribution of property prices (Lakhs)
+mean=254.6, median=253.9, range 10.0-500.0
+
+Q2 Distribution of property sizes (sq ft)
+mean=2750, range 500-5000
+
+Q3 Price per sq ft (Rs) by property type
+Property_Type
+Apartment            13047.0
+Independent House    13102.0
+Villa                13026.0
+
+Q4 Size vs price
+correlation = -0.003
+
+Q5 Outliers (IQR rule)
+price/sqft outliers = 19723 (7.9%); size outliers = 0
+
+Q6 Avg price per sq ft (Rs) by state
+highest: Karnataka (13252); lowest: Punjab (12931)
+
+Q7 Average price (Lakhs) by city
+highest: Bangalore (258.5); lowest: Cuttack (250.8)
+
+Q8 Median age of properties (40 youngest of 500 localities)
+overall median of locality medians = 18.0 yrs; range 16.0-21.0
+
+Q9 BHK distribution across cities
+BHK is spread almost uniformly (about 20% each of 1-5 BHK) in every city.
+
+Q10 Price/sq ft trend by year built, top-5 priciest localities
+Top 5: Locality_207, Locality_416, Locality_246, Locality_359, Locality_387. The dataset has no sale dates, so Year_Built is the only time axis (proxy).
+
+Q11 Correlation of numeric features
+Strongest with Price_in_Lakhs:
+Price_per_SqFt      0.556
+Nearby_Hospitals    0.003
+Age_of_Property     0.003
+Size_in_SqFt        0.003
+
+Q12 Nearby schools vs price per sq ft
+correlation = -0.000
+
+Q13 Nearby hospitals vs price per sq ft
+correlation = -0.000
+
+Q14 Price by furnished status
+Furnished_Status
+Furnished         254.4
+Semi-furnished    254.3
+Unfurnished       255.0
+
+Q15 Price per sq ft by facing direction
+Facing
+East     13024.0
+North    13025.0
+South    13044.0
+West     13140.0
+
+Q16 Properties by owner type
+Owner_Type
+Broker     83479
+Owner      83268
+Builder    83253
+
+Q17 Properties by availability status
+Availability_Status
+Under_Construction    125035
+Ready_to_Move         124965
+
+Q18 Parking space vs price
+Parking_Space
+No     254.4
+Yes    254.7
+
+Q19 Amenity count vs price per sq ft
+correlation = 0.002
+
+Q20 Public transport vs price/sqft and investment potential
+                                Price_per_SqFt  Good_Investment
+Public_Transport_Accessibility                                 
+High                                 13027.242            0.620
+Low                                  13085.539            0.463
+Medium                               13062.233            0.545
