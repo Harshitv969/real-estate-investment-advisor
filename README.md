@@ -6,6 +6,9 @@ Two ML models on `india_housing_prices.csv` (250,000 properties, 23 columns):
 
 A Streamlit app serves both; MLflow tracks all experiments and registers the best models.
 
+**Live app:** https://rea-invest-advisor-guvi.streamlit.app/
+**Full EDA report (all 20 questions, charted):** [EDA.md](EDA.md)
+
 ## How to run
 ```bash
 pip install -r requirements.txt
