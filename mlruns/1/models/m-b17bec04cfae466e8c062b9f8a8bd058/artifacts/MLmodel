@@ -1,0 +1,24 @@
+artifact_path: /Users/harshitverma/Downloads/GUVI PROJECTS/Project -3 Real Estate
+  Investment Advisor/mlruns/1/models/m-b17bec04cfae466e8c062b9f8a8bd058/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-b17bec04cfae466e8c062b9f8a8bd058
+model_size_bytes: 22557752
+model_uuid: m-b17bec04cfae466e8c062b9f8a8bd058
+prompts: null
+run_id: 3da48d399b174eab9b35481dc85340c3
+utc_time_created: '2026-09-26 20:10:18.949814'
